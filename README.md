@@ -1,2 +1,3 @@
-# zruzicka.github.io
-Initial GitHub Pages
+# About
+
+[zruzicka.github.io](http://zruzicka.github.io/)
