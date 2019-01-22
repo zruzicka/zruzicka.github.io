@@ -114,7 +114,7 @@ a:hover {
 </div>
 
 <div class="embedded">
-<p><b>3. úsek:</b> Výstup Tuc der Òme, pár snímků z vrcholku a dlouhý pozvolný sestup směrem parkoviště Baquiera-Beret.</br>Mačky a trekové hole zde byly touto dobou nutností.</p>
+<p><b>3. úsek:</b> Výstup Tuc der Òme, pár snímků z vrcholku a dlouhý pozvolný sestup směrem parkoviště Baquiera-Beret.</br>Mačky, návleky a trekové hole zde byly touto dobou nutností.</p>
 <div class="pa-embed-player" style="width:100%; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/8uZ8XtcZH6Et4XsS6"
   data-title="2018-12-30: výlet Val-d&#39;Aran-circular - výstup Tuc der Òme + sestup směrem Baquiera-Beret"
@@ -168,6 +168,38 @@ a:hover {
 		<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/2045131978/embed/eead70c0e6b7725e11a5bd92276c36ea2e6ecccd'>
 		<p>Your browser does not support iframes.</p>
 		</iframe>
+	</div>
+	
+	<div align="center" class="embedded">
+		<script src="https://api.mapy.cz/loader.js"></script>
+		<script>Loader.load();</script>
+		<div id="mapa" style="width:500px; height:450px"></div>
+		<script>
+			var center = SMap.Coords.fromWGS84(0.9362465000000384, 42.7550631);
+			var mapa = new SMap(JAK.gel("mapa"), center, 12);
+			mapa.addDefaultLayer(SMap.DEF_TURIST).enable().setTrail(true);
+			var scale = new SMap.Control.Scale();
+			mapa.addControl(scale, {left:"8px", bottom:"25px"});
+			var msOpt = SMap.MOUSE_PAN | SMap.MOUSE_WHEEL | SMap.MOUSE_ZOOM;
+			var mouse = new SMap.Control.Mouse(msOpt);
+			mapa.addControl(mouse);
+			var keyboard = new SMap.Control.Keyboard(SMap.KB_PAN | SMap.KB_ZOOM);
+			mapa.addControl(keyboard);
+			var selection = new SMap.Control.Selection(2);
+			mapa.addControl(selection);
+			var zn = new SMap.Control.ZoomNotification();
+			mapa.addControl(zn);
+			var zoomOpt = {showZoomMenu:false};
+			var zoom = new SMap.Control.Zoom(null,{titles:["Přiblížit", "Oddálit"], showZoomMenu:false});
+			mapa.addControl(zoom, {right:"2px", top:"10x"});
+			var lnt = "Zobrazení zvolené trasy přes Mapy.cz</br>(trasu nelze zobrazit v tomto náhledu)";
+			var lnd = JAK.mel("a", {href:"https://mapy.cz/s/3lNnw", target:"_blank", innerHTML:lnt});
+			lnd.style.cssText = "position:absolute;left:8px; bottom:54px;"+
+			"display:block; padding:4px 8px; background-color:#fff; border:medium none;"+
+			"border-radius:3px; box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);"+
+			"text-decoration:none; color:#6b7580;";
+			mapa.getContainer().appendChild(lnd);
+		</script>
 	</div>
 
 	<div align="center" class="embedded">
