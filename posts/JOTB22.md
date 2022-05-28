@@ -9,7 +9,7 @@ J on the Beach is a truly interesting conference and a great choice from my subj
 Tech talks encouraged me to look further into frameworks for API gateways, and for Event Sourcing.
 
 Málaga is a city with an amazing vibe and plenty of options that go beyond a week.
-As a real fan of outdoor activities, I can highlight the Caminito del Rey, the Alcazaba in Málaga, the Historic Botanical Gardens, and regular swimming in the sea. The sea was still chilly in April and swims up to 22 minutes was my max, but come on, for most of us that's enough to stretch our bodies a bit during the week, so go for it!
+As a real fan of outdoor activities, I can highlight the Caminito del Rey, the Alcazaba in Málaga, the Historic Botanical Gardens, and regular swimming in the sea. The sea was still chilly in April and swims up to 22 minutes were my max, but come on, for most of us that's enough to stretch our bodies a bit during the week, so go for it!
 
 In addition, considering our natural remote work approach and also different locations we joked with colleague Stefan that thanks to the conference it was much easier for us to meet in person for a week in Malaga than in our Brno office. Such a truth! :D
 
