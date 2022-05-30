@@ -15,6 +15,6 @@ In addition, considering our natural remote work approach and different location
 
 Am I the only person whose mind and focus are very easily narrowed by day-to-day routines, and who is often initially hesitant to attend events like this, but when he goes, finds that he is glad he did? For me, it's a never-ending battle! :D
 
-Stay open-minded, choose your conference and go-ahead for a new experience! :)
+Stay open-minded, choose your conference and go ahead for a new experience! :)
 
 And hey, if you go there next year, see you in person at J on the Beach 2023!
