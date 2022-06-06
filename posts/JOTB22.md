@@ -1,6 +1,6 @@
 # J on the Beach
 
-J on the Beach (JOTB) is a truly interesting conference in Málaga by the end of April. The motto is "bringing developers and devops together around big data". JOTB offers interesting tech topics, experienced speakers from all around the world, and many opportunities to talk with speakers and other attendees.
+J on the Beach (JOTB) is a truly interesting conference in Málaga by the end of April. The motto is "bringing developers and DevOps together around big data". JOTB offers interesting tech topics, workshops, experienced speakers from all around the world, and many opportunities to talk with speakers and other attendees.
 
 ## Talks
 
